@@ -1,0 +1,15 @@
+ mkdir git_challenge
+cd git_challenge/
+git init
+git add hello_world.txt 
+git commit -m "hello_world.txtを追加"
+[master (root-commit) 9e97035] hello_world.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+git add hello_world.txt 
+git commit -m "日本語訳を追記"
+[master 4d47e5a] 日本語訳を追記
+ 1 file changed, 2 insertions(+)
+git log --oneline
+4d47e5a (HEAD -> master) 日本語訳を追記
+9e97035 hello_world.txtを追加
